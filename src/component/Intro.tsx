@@ -19,7 +19,7 @@ function Intro() {
                 <div className="text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl">
                     Hello 👋, i’m
                     <div
-                        className="text-2xl sm:text-3xl font-medium text-blue-600 lg:text-4xl"
+                        className="text-2xl sm:text-3xl font-medium text-violet-600 lg:text-4xl"
                     >
                         Sonu Mondal
                     </div>

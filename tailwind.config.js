@@ -4,7 +4,14 @@ export default {
   theme: {
     extend: {
       borderWidth: {
-        '1': "1px", // This sets the default border width to 2px
+        "1": "1px",
+      },
+      width: {
+        "50rem": "800px",
+        "60rem": "960px",
+      },
+      screens: {
+        "xs": "500px",
       },
     },
   },
