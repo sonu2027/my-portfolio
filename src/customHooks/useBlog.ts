@@ -2,7 +2,7 @@
 function useBlog() {
     const arr = [
         {
-            title: "How to customize CSS (screen width, borderwidth, width etc) in Tailwind CSS",
+            title: "How to customize CSS in Tailwind CSS",
             about: "Learn how to write your own CSS in tailwind css if something is not given in tailwind css. In tailwind css the default borderwidth is 2px but you can create borderwidth of 1px and you can use it on tailwind css.",
             date:15,
             sup:"th",

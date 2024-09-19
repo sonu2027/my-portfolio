@@ -8,6 +8,12 @@ function CodingProfile() {
 
     const [showCodingProfile, setShowCodingProfile] = useState<boolean>(false)
 
+    window.addEventListener("click", () => {
+        if (showCodingProfile) {
+            setShowCodingProfile(false)
+        }
+    })
+
     return (
         <>
             <li className="flex">
