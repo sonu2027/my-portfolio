@@ -27,6 +27,7 @@ function BlogPost1() {
             name="description"
             content="In this guide I will guide you step by step that how can you you customize CSS in Tailwind CSS. Many time we need to set borderWidth 1px but tailwind doesn't provide. The tailwind borderWidth start from 2px but we can set it to 1px by defining some extra code in tailwindconfig.js file. It is very esy to do and very easy to use. Just follow the step by step guide"
           />
+          <meta name="keywords" content="Customize CSS in tailwind CSS, Blog, Blog Page, Sonu Mondal blog, Sonu Mondal blog page"/>
           <title>{title} </title>
         </Helmet>
         <div className="px-4 bg-blue-100 shadow-gray-300 shadow-md border-b-violet-200 border-2 border-solid sticky top-0 z-10">
