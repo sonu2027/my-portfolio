@@ -7,6 +7,7 @@ import ProjectSection from "./component/ProjectSection.tsx"
 import { IoMdArrowDropupCircle } from "react-icons/io";
 import Education from "./component/Education.tsx"
 import { Helmet, HelmetProvider } from "react-helmet-async"
+import Certificate from "./component/Certificate.tsx"
 
 function App() {
 
@@ -38,6 +39,9 @@ function App() {
         <Intro />
         <SkillSection />
         <ProjectSection />
+        <div className="mt-10 px-8">
+          <Certificate />
+        </div>
         {
           showGoToTop && <IoMdArrowDropupCircle onClick={() => {
             window.scrollTo({
