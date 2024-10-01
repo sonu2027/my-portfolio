@@ -39,6 +39,11 @@ function App() {
         <Intro />
         <SkillSection />
         <ProjectSection />
+        <div id="education"
+          className="text-2xl md:text-3xl mt-14 font-medium mx-4 sm:mx-8 md:mx-12 lg:mx-20 skill"
+        >
+          Certificate
+        </div>
         <div className="mt-10 px-8">
           <Certificate />
         </div>
