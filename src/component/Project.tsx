@@ -52,7 +52,10 @@ function Project({ names, description, techUsed, githubLink, liveLink, assest }:
         </div>
       </div>
       {
-        assest == "imageGallery" ? <div style={{ position: "relative", paddingBottom: "56.22254758418741%", height: "0" }}><iframe src="https://www.loom.com/embed/9a8b02ef9d834f73b23ceb1e715eb96a?sid=34b9440b-8028-4190-8a57-bc9ab2125126" style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}></iframe></div>
+        assest == "imageGallery" ?
+          <video className="rounded-b-xl mt-3" controls>
+            <source src="photo_gallery.mp4" type="video/mp4" />
+          </video>
           :
           <img
             className="rounded-b-xl mt-3"
