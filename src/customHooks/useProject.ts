@@ -12,11 +12,11 @@ type project = {
 const useProject = (): project[] => {
     const project: project[] = [
         {
-            names: "Zomato Clone",
-            description: "Presenting a React JS-powered Zomato clone, crafted with CSS and backed by Node.js, Express.js, and MongoDB. Experience the convenience of browsing, ordering, and reviewing restaurants, all in a familiar and user-friendly interface.",
+            names: "Food king",
+            description: "Presenting a React JS-powered Food King, crafted with CSS and backend by Node.js, Express.js, and MongoDB. Experience the convenience of browsing, ordering, and reviewing restaurants, all in a familiar and user-friendly interface.",
             techUsed: "React.js | CSS | Node.js | MongoDB | Express.js",
             githubLink: "https://github.com/sonu2027/Zomato-Clone",
-            liveLink: "https://zonatoclone.vercel.app/",
+            liveLink: "https://foodkings.vercel.app/",
             assest: zomatoImg
         },
         {
