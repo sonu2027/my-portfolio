@@ -1,5 +1,5 @@
 import zomatoImg from "../assets/project/zomato-clone.png"
-import todoImg from "../assets/project/todo-kart.png"
+import rapidImg from "../assets/project/rapid-quizzer.png"
 
 type project = {
     names: String;
@@ -12,12 +12,12 @@ type project = {
 const useProject = (): project[] => {
     const project: project[] = [
         {
-            names: "Food king",
-            description: "Presenting a React JS-powered Food King, crafted with CSS and backend by Node.js, Express.js, and MongoDB. Experience the convenience of browsing, ordering, and reviewing restaurants, all in a familiar and user-friendly interface.",
-            techUsed: "React.js | CSS | Node.js | MongoDB | Express.js",
-            githubLink: "https://github.com/sonu2027/Zomato-Clone",
-            liveLink: "https://foodkings.vercel.app/",
-            assest: zomatoImg
+            names: "Rapid-Quizzer",
+            description: "Built a real-time multiplayer quiz platform where players compete by answering timed questions, with scores based on accuracy and speed. Developed a result system to display scores and declare the winner, rewarding the most accurate and fastest player.",
+            techUsed: "React.js | Express.js | Node.js | Tailwind CSS | MongoDB",
+            githubLink: "https://github.com/sonu2027/Rapid-Quizzer",
+            liveLink: "https://playquizes.vercel.app/",
+            assest: rapidImg
         },
         {
             names: "Image Gallery",
@@ -28,13 +28,13 @@ const useProject = (): project[] => {
             assest: "imageGallery"
         },
         {
-            names: "Todo",
-            description: "Todo web app, built with ReactJS and TailwindCSS, powered by Appwrite database. Seamlessly sign up, log in, and manage tasks. Easily add, delete, and mark tasks as completed",
-            techUsed: "React.js | Tailwind CSS | Appwrite",
-            githubLink: "https://github.com/sonu2027/todo-appwrite-backend",
-            liveLink: "https://todokart.vercel.app/",
-            assest: todoImg
-        }
+            names: "Food king",
+            description: "Presenting a React JS-powered Food King, crafted with CSS and backend by Node.js, Express.js, and MongoDB. Experience the convenience of browsing, ordering, and reviewing restaurants, all in a familiar and user-friendly interface.",
+            techUsed: "React.js | CSS | Node.js | MongoDB | Express.js",
+            githubLink: "https://github.com/sonu2027/Zomato-Clone",
+            liveLink: "https://foodkings.vercel.app/",
+            assest: zomatoImg
+        },
     ]
 
     return project
