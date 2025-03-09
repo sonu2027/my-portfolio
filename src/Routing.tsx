@@ -4,7 +4,7 @@ import App from "./App.tsx"
 import BlogPost1 from "./blog/BlogPost1.tsx"
 import BlogPost2 from "./blog/BlogPost2.tsx"
 import Certificate from "./component/Certificate.tsx"
-import GitHubComponent from "./component/GitHubComponent.jsx"
+import GitHubComponent from "./component/GitHubComponent.tsx"
 
 function Routing() {
     return (
