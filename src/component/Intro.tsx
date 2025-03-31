@@ -16,14 +16,14 @@ function Intro() {
                     src="pp.jpg"
                     alt="Profile Photo"
                 />
-                <div className="text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl">
+                <div className="text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl animate-pulse">
                     Hello 👋, i’m
                     <div
-                        className="text-2xl sm:text-3xl font-medium text-violet-600 lg:text-4xl"
+                        className="text-2xl sm:text-3xl font-medium text-violet-600 lg:text-4xl "
                     >
                         Sonu Mondal
                     </div>
-                    A Full Stack Web developer | Exploring Machine Learning
+                    <div>A Full Stack Web developer | Exploring Machine Learning</div>
                 </div>
             </div>
             <div
@@ -73,7 +73,7 @@ function Intro() {
                     ><FaSquareTwitter /></a>
                 </div>
             </div>
-            <div className="pt-16">
+            <div className="pt-16 animate-bounce">
                 <a href="resume.pdf" target="_blank">
                     <button className="bg-violet-800 text-white md:px-5 px-3 py-1 md:py-2 rounded-sm flex justify-center items-center">
                         <span className="text-lg md:text-xl font-medium">Resume</span>

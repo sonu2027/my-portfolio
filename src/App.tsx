@@ -8,6 +8,7 @@ import { IoMdArrowDropupCircle } from "react-icons/io";
 import Education from "./component/Education.tsx"
 import { Helmet, HelmetProvider } from "react-helmet-async"
 import Certificate from "./component/Certificate.tsx"
+import { Achievement } from "./component/Achievement.tsx"
 
 function App() {
 
@@ -29,16 +30,14 @@ function App() {
         <Helmet>
           <title>Sonu Mondal</title>
         </Helmet>
-        <div className="px-4 bg-blue-100 shadow-gray-300 shadow-md border-b-violet-200 border-2 border-solid sticky top-0 z-10">
+        <div className="px-4 bg-blue-100 shadow-gray-300 shadow-md border-b-violet-200 border-2 border-solid sticky top-0 z-20">
           <NavBar showList={showList} setShowList={setShowList} />
         </div>
-        {
-          showList &&
-          <ListSmallScreen showList={showList} setShowList={setShowList} />
-        }
+        <ListSmallScreen showList={showList} setShowList={setShowList} />
         <Intro />
         <SkillSection />
         <ProjectSection />
+        <Achievement/>
         <div id="education"
           className="text-2xl md:text-3xl mt-14 font-medium mx-4 sm:mx-8 md:mx-12 lg:mx-20 skill"
         >
@@ -53,7 +52,7 @@ function App() {
               top: 0,
               behavior: "smooth", // optional: for smooth scrolling
             });
-          }} className="fixed bottom-4 right-4 text-4xl text-green-500 hover:cursor-pointer" />
+          }} className="fixed z-10 bottom-4 right-4 text-4xl text-green-500 hover:cursor-pointer animate-bounce" />
         }
         <div id="education"
           className="text-2xl md:text-3xl mt-14 font-medium mx-4 sm:mx-8 md:mx-12 lg:mx-20 skill"

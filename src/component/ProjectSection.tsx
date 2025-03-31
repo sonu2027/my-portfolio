@@ -8,7 +8,7 @@ function ProjectSection() {
   return (
     <>
       <div id="project"
-        className="text-2xl md:text-3xl mt-14 font-medium mx-4 sm:mx-8 md:mx-12 lg:mx-20 skill"
+        className="text-2xl md:text-3xl mt-14 mb-6 font-medium mx-4 sm:mx-8 md:mx-12 lg:mx-20 skill"
       >
         Projects
       </div>

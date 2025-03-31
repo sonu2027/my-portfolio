@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import Blog from "./routingComponent/Blog"
+import Blog from "./pages/Blog.tsx"
 import App from "./App.tsx"
 import BlogPost1 from "./blog/BlogPost1.tsx"
 import BlogPost2 from "./blog/BlogPost2.tsx"

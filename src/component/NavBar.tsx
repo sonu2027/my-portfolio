@@ -30,6 +30,12 @@ function NavBar({ showList, setShowList }: NavBarProps) {
                 education.scrollIntoView({ behavior: "smooth" })
             }
         }
+        if (work == "achievement") {
+            const achievement = document.getElementById("achievement")
+            if (achievement) {
+                achievement.scrollIntoView({ behavior: "smooth" })
+            }
+        }
         setShowList(!showList)
     }
 
@@ -49,7 +55,7 @@ function NavBar({ showList, setShowList }: NavBarProps) {
                         }} className="text-violet-600 font-medium text-4xl" />
                     </div>
                     :
-                    <div className=" border-2 border-violet-300 border-solid rounded-md px-1 py-1 h-8 w-8 flex justify-center items-center hover:cursor-pointer md:hidden">
+                    <div className=" border-2 border-violet-300 border-solid rounded-md px-1 py-1 h-8 w-8 flex justify-center items-center hover:cursor-pointer md:hidden ">
                         <RxCross1 onClick={(e) => {
                             e.stopPropagation()
                             setShowList(!showList)
@@ -59,6 +65,7 @@ function NavBar({ showList, setShowList }: NavBarProps) {
             <ul className="hidden relative right-12 md:flex gap-x-6">
                 <li onClick={(e) => handleScroll("skill", e)} className="font-medium hover:cursor-pointer  hover:underline hover:text-violet-600">Skills</li>
                 <li onClick={(e) => handleScroll("project", e)} className="font-medium hover:cursor-pointer hover:underline hover:text-violet-600">Projects</li>
+                <li onClick={(e) => handleScroll("achievement", e)} className="font-medium hover:cursor-pointer hover:underline hover:text-violet-600">Achievement</li>
                 <li onClick={(e) => handleScroll("education", e)} className="font-medium hover:cursor-pointer hover:underline hover:text-violet-600">Education</li>
                 <CodingProfile />
                 <Link to="/blog">

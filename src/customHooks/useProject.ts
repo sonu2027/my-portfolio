@@ -1,16 +1,25 @@
 import zomatoImg from "../assets/project/zomato-clone.png"
 import rapidImg from "../assets/project/rapid-quizzer.png"
+import pfm from "../assets/project/pfm.png"
 
 type project = {
-    names: String;
+    names: string;
     description: string;
-    techUsed: String,
-    githubLink: String,
-    liveLink: String,
-    assest: String
+    techUsed: string,
+    githubLink: string,
+    liveLink: string,
+    assest: string
 }
 const useProject = (): project[] => {
     const project: project[] = [
+        {
+            names: "Personal Financial Manager",
+            description: "The Personal Finance Manager is a smart and intuitive app designed to help users track expenses, manage income, set budgets, and achieve savings goals effortlessly. With real-time analytics, customizable categories, and automated reminders, it provides clear financial insights to promote better money management. Secure and user-friendly, this app empowers users to stay in control of their finances and make informed financial decisions.",
+            techUsed: "React.js | Express.js | Node.js | Tailwind CSS | MongoDB",
+            githubLink: "https://github.com/sonu2027/personal-finance-manager",
+            liveLink: "https://managepersonalfinance.vercel.app",
+            assest: pfm
+        },
         {
             names: "Rapid-Quizzer",
             description: "Built a real-time multiplayer quiz platform where players compete by answering timed questions, with scores based on accuracy and speed. Developed a result system to display scores and declare the winner, rewarding the most accurate and fastest player.",

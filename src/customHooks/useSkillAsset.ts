@@ -1,6 +1,7 @@
 import c from "../assets/skills/c.png"
 import cpp from "../assets/skills/cpp.png"
 import js from "../assets/skills/jslogo.png"
+import ts from "../assets/skills/ts.png"
 import html from "../assets/skills/html.webp"
 import css from "../assets/skills/css.png"
 import tailwind from "../assets/skills/tailwindcss.svg"
@@ -20,6 +21,7 @@ const useSkillAsset = () => {
         "C": c,
         "C++": cpp,
         "JavaScript": js,
+        "TypeScript": ts,
         "Python":python,
         "HTML": html,
         "CSS": css,

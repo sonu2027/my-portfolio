@@ -33,10 +33,7 @@ function BlogPost1() {
         <div className="px-4 bg-blue-100 shadow-gray-300 shadow-md border-b-violet-200 border-2 border-solid sticky top-0 z-10">
           <NavBar2 heading3={"Read Blog"} showList={showList} setShowList={setShowList} />
         </div>
-        {
-          showList &&
-          <ListSmallScreen2 />
-        }
+        <ListSmallScreen2 showList={showList}/>
         <div className="bg-gray-100 sm:pt-8 sm:pb-8 flex justify-center items-center">
 
           <div className="bg-white px-2 py-2 sm:mx-6 sm:px-4 sm:py-6 sm:rounded-md sm:shadow-sm sm:shadow-gray-400 md:w-60rem">

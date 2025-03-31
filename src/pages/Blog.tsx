@@ -6,10 +6,8 @@ import ListSmallScreen2 from "../component/ListSmalScreen2.tsx"
 import NavBar2 from "../component/NavBar2.tsx"
 
 function Blog() {
-  
 
   const [showList, setShowList] = useState<boolean>(false)
-
   const arr = useBlog()
 
   return (
@@ -23,13 +21,10 @@ function Blog() {
           <meta name="keywords" content="Blog, Sonu Mondal blog, Sonu Mondal blog page" />
           <title>Sonu Mondal blog</title>
         </Helmet>
-        <div className="px-4 bg-blue-100 shadow-gray-300 shadow-md border-b-violet-200 border-2 border-solid sticky top-0 z-10">
+        <div className="px-4 bg-blue-100 shadow-gray-300 shadow-md border-b-violet-200 border-2 border-solid sticky top-0 z-20">
           <NavBar2 heading3={"Read Blog"} showList={showList} setShowList={setShowList} />
         </div>
-        {
-          showList &&
-          <ListSmallScreen2 />
-        }
+        <ListSmallScreen2 showList={showList}/>
         <h1 className=" text-2xl md:text-3xl font-semibold text-center py-2 sticky top-14 bg-gray-100 shadow-sm shadow-gray-300 text-violet-600 underline">Coding Articles</h1>
         <div className=" py-4 pl-4 pr-4 flex flex-col gap-y-6 xs:pl-8 justify-center items-center">
           {
