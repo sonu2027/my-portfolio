@@ -40,6 +40,9 @@ function Intro() {
                     create high-impact solutions that meet business needs and exceed user
                     expectations.
                 </div>
+                <div className="mt-2 text-lg">
+                    Currently looking for an opportunity to work as a <span className="font-bold text-violet-600">full stack web developer</span>, <span className="font-bold text-violet-600">frontend developer</span>, <span className="font-bold text-violet-600">backend developer</span>, <span className="font-bold text-violet-600">software developer</span> or <span className="font-bold text-violet-600">React developer</span> in a dynamic and innovative environment.
+                </div>
             </div>
             <div
                 className="flex justify-center items-center gap-x-6 mt-14 md:gap-x-10 lg:gap-x-16"

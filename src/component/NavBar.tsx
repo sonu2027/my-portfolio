@@ -44,7 +44,7 @@ function NavBar({ showList, setShowList }: NavBarProps) {
         <nav className="flex justify-between items-center bg-blue-100 pb-1">
             <span>
                 <h1 className="text-violet-600 text-2xl font-medium">Sonu Mondal</h1>
-                <h3 className="text-sm">Final year CSE under grad</h3>
+                <h3 className="text-sm">Full Stack Web developer</h3>
             </span>
             {
                 !showList ?

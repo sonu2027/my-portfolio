@@ -9,6 +9,7 @@ import Education from "./component/Education.tsx"
 import { Helmet, HelmetProvider } from "react-helmet-async"
 import Certificate from "./component/Certificate.tsx"
 import { Achievement } from "./component/Achievement.tsx"
+import InternshipCard from "./component/InternshipCard .tsx"
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         </div>
         <ListSmallScreen showList={showList} setShowList={setShowList} />
         <Intro />
+        <InternshipCard />
         <SkillSection />
         <ProjectSection />
         <Achievement/>
