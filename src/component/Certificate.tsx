@@ -6,13 +6,15 @@ import img5 from "../assets/certificate/responsive_web_design.png"
 import img6 from "../assets/certificate/writing_skill.png"
 import img7 from "../assets/certificate/programming_fundamental.png"
 import img8 from "../assets/certificate/Raspberry_pi.png"
+import img9 from "../assets/certificate/angular.png"
+
 import { useEffect, useState } from "react"
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
 function Certificate() {
   const [imgWidth, setimgWidth] = useState<number>(0)
-  const imgarr = [img1, img2, img3, img4, img5, img6, img7, img8]
+  const imgarr = [img1, img2, img9, img3, img4, img5, img6, img7, img8]
   const [currentImg, setCurrentImg] = useState<string[]>([])
 
   const [slide, setSlide] = useState<number>(0)

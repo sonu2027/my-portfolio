@@ -15,17 +15,16 @@ function CodingProfile() {
     })
 
     return (
-        <>
-            <li className="flex">
-                <CodingProfileHeading showCodingProfile={showCodingProfile} setShowCodingProfile={setShowCodingProfile} />
-                {
-                    showCodingProfile &&
-                    <div className="fixed top-10">
-                        <ListItem ULstyle={ULstyle} />
-                    </div>
-                }
-            </li>
-        </>
+
+        <li className="flex">
+            <CodingProfileHeading showCodingProfile={showCodingProfile} setShowCodingProfile={setShowCodingProfile} />
+            {
+                showCodingProfile &&
+                <div className="fixed top-10">
+                    <ListItem ULstyle={ULstyle} />
+                </div>
+            }
+        </li>
     )
 }
 

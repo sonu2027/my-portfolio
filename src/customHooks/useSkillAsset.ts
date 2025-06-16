@@ -14,6 +14,7 @@ import mysql from "../assets/skills/mySql.png"
 import postgresql from "../assets/skills/postgresql.png"
 import appwrite from "../assets/skills/appwrite.svg"
 import python from "../assets/skills/python.png"
+import angular from "../assets/skills/angular.svg"
 
 const useSkillAsset = () => {
 
@@ -27,6 +28,7 @@ const useSkillAsset = () => {
         "CSS": css,
         "Tailwind": tailwind,
         "React.js": react,
+        "Angular": angular,
         "Node.js": node,
         "Express.js": express,
         "Next.js": next,

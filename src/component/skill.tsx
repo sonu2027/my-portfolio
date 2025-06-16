@@ -11,7 +11,7 @@ function Skill({ names, location }: prop) {
             <img
                 className="h-16 w-16 md:h-20 md:w-20"
                 src={`${location}`}
-                alt="C Logo"
+                alt="Image"
             />
             <p>{names}</p>
         </div>

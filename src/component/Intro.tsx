@@ -23,7 +23,7 @@ function Intro() {
                     >
                         Sonu Mondal
                     </div>
-                    <div>A Full Stack Web developer | Exploring Machine Learning</div>
+                    <div>A Full Stack Web developer</div>
                 </div>
             </div>
             <div
@@ -76,7 +76,7 @@ function Intro() {
                     ><FaSquareTwitter /></a>
                 </div>
             </div>
-            <div className="pt-16 animate-bounce">
+            <div className="pt-16">
                 <a href="resume.pdf" target="_blank">
                     <button className="bg-violet-800 text-white md:px-5 px-3 py-1 md:py-2 rounded-sm flex justify-center items-center">
                         <span className="text-lg md:text-xl font-medium">Resume</span>
