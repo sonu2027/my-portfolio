@@ -16,22 +16,34 @@ const InternshipCard = () => {
                         <Briefcase className="text-blue-600" />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-bold text-gray-800">Full Stack Developer Intern</h2>
+                        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">Full Stack Developer Intern</h2>
                         <p className="text-gray-500 text-sm">Codetikki (Remote)</p>
                     </div>
                 </div>
 
                 <div className="flex items-center gap-2 text-gray-700 text-sm mb-4">
                     <Clock className="w-4 h-4 text-blue-500" />
-                    <span><strong>Duration:</strong> Feb – March, 2025</span>
+                    <span><strong>Duration:</strong> Feb – Apr, 2025</span>
                 </div>
 
                 <div className="text-gray-700 text-sm leading-relaxed bg-gray-50 p-4 rounded-xl border border-gray-100">
-                    <Laptop2 className="inline-block w-4 h-4 mr-2 text-blue-500" />
-                    Worked on the company’s official website, where I contributed to improving overall responsiveness and user experience.
-                    Developed and integrated <strong>RESTful APIs</strong>, and implemented <strong>MongoDB aggregation pipelines</strong> to handle complex data queries.
-                    Collaborated closely with frontend and backend modules to ensure seamless performance and code optimization.
+                    <div className="flex items-center mb-2">
+                        <Laptop2 className="w-4 h-4 mr-2 text-blue-500" />
+                        <span className="font-semibold text-gray-800">Key Contributions</span>
+                    </div>
+                    <ul className="list-disc list-inside space-y-1">
+                        <li>
+                            Worked on the company’s official website, enhancing overall responsiveness and user experience.
+                        </li>
+                        <li>
+                            Developed and integrated <strong>RESTful APIs</strong>, and implemented <strong>MongoDB aggregation pipelines</strong> to handle complex data queries.
+                        </li>
+                        <li>
+                            Collaborated with both frontend and backend teams to ensure seamless performance and effective code optimization.
+                        </li>
+                    </ul>
                 </div>
+
             </div>
         </>
     );
